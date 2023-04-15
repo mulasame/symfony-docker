@@ -1,3 +1,7 @@
+# ローカル環境構築メモ
+
+-   なぜか devcontainer から起動するとうまくサイトにつながらないので、一旦 docker compose up をローカルでして立ち上げてから devcontainer で reopen して繋げる
+
 # Symfony Docker
 
 A [Docker](https://www.docker.com/)-based installer and runtime for the [Symfony](https://symfony.com) web framework, with full [HTTP/2](https://symfony.com/doc/current/weblink.html), HTTP/3 and HTTPS support.
@@ -14,15 +18,15 @@ A [Docker](https://www.docker.com/)-based installer and runtime for the [Symfony
 
 ## Features
 
-* Production, development and CI ready
-* [Installation of extra Docker Compose services](docs/extra-services.md) with Symfony Flex
-* Automatic HTTPS (in dev and in prod!)
-* HTTP/2, HTTP/3 and [Preload](https://symfony.com/doc/current/web_link.html) support
-* Built-in [Mercure](https://symfony.com/doc/current/mercure.html) hub
-* [Vulcain](https://vulcain.rocks) support
-* Native [XDebug](docs/xdebug.md) integration
-* Just 2 services (PHP FPM and Caddy server)
-* Super-readable configuration
+-   Production, development and CI ready
+-   [Installation of extra Docker Compose services](docs/extra-services.md) with Symfony Flex
+-   Automatic HTTPS (in dev and in prod!)
+-   HTTP/2, HTTP/3 and [Preload](https://symfony.com/doc/current/web_link.html) support
+-   Built-in [Mercure](https://symfony.com/doc/current/mercure.html) hub
+-   [Vulcain](https://vulcain.rocks) support
+-   Native [XDebug](docs/xdebug.md) integration
+-   Just 2 services (PHP FPM and Caddy server)
+-   Super-readable configuration
 
 **Enjoy!**
 

@@ -1,0 +1,10 @@
+version: "3"
+services:
+    terraform:
+        build: .
+        container_name: "terraform"
+        working_dir: "/"
+        volumes:
+            - ~/.aws:/root/.aws:ro
+            - ./:/usr/local/src/
+        tty: true

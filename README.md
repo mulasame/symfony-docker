@@ -2,6 +2,8 @@
 
 -   なぜか devcontainer から起動するとうまくサイトにつながらないので、一旦 docker compose up をローカルでして立ち上げてから devcontainer で reopen して繋げる
 
+- debug モードが上手くいかない場合、適当なページで` var_dump(xdebug_info());` をして、`Step Debugger` が`enabled` になっていることを確認する
+
 # Symfony Docker
 
 A [Docker](https://www.docker.com/)-based installer and runtime for the [Symfony](https://symfony.com) web framework, with full [HTTP/2](https://symfony.com/doc/current/weblink.html), HTTP/3 and HTTPS support.

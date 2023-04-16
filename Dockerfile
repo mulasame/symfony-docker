@@ -21,6 +21,8 @@ RUN xcaddy build \
 # Prod image
 FROM php:8.2-fpm-alpine AS app_php
 
+ENV XDEBUG_MODE=off
+
 # Allow to use development versions of Symfony
 ARG STABILITY="stable"
 ENV STABILITY ${STABILITY}

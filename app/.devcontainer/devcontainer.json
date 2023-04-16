@@ -21,11 +21,7 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        "GitHub.vscode-pull-request-github",
         "xdebug.php-debug",
-        "vivaxy.vscode-conventional-commits",
-        "mhutchie.git-graph",
-        "eamodio.gitlens",
         "bmewburn.vscode-intelephense-client"
       ]
     }
